@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechLaptop - Contact Us</title>
+    <!-- ربط ملف التنسيقات الخارجي -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- مكتبة الأيقونات FontAwesome -->
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+    <!-- شريط التنقل العلوي (Navbar) -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-laptop"></i> TechLaptop
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index1.html">Products</a>
+            <a href="index4.html">Register</a>
+            <a href="index2.html">Login</a>
+            <a href="index3.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- المحتوى الرئيسي لصفحة اتصل بنا -->
+    <main class="main-content">
+        
+        <div class="contact-wrapper">
+            
+            <!-- قسم معلومات التواصل -->
+            <div class="contact-info-card">
+                <h3>Contact Information</h3>
+                
+                <ul class="info-list">
+                    <li>
+                        <i class="fa-solid fa-location-dot location-icon"></i>
+                        <span>Republic of Yemen - Sana'a</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone phone-icon"></i>
+                        <span>+967 777 777 777</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope email-icon"></i>
+                        <span>info@techlaptop.com</span>
+                    </li>
+                </ul>
+
+                <h3 class="social-title">Social Media Channels</h3>
+                <div class="social-icons">
+                    <a href="" class="social-icon facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="social-icon whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="social-icon telegram"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+
+            <!-- قسم نموذج إرسال الرسالة -->
+            <div class="contact-form-card">
+                <h3>Send a Message</h3>
+                
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="name@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="send-btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- الفوتر السفلي -->
+    <footer class="footer"></footer>
+
+    <!-- ربط ملف الـ JavaScript الخارجي -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechLaptop - Laptops Catalog</title>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-laptop"></i> TechLaptop
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="index1.html">Products</a>
+            <a href="index4.html">Register</a>
+            <a href="index2.html">Login</a>
+            <a href="index3.html">Contact Us</a>
+        </nav>
+    </header>
+<!-- Hero Section -->
+<div class="hero" id="heroSlider">
+    <button class="slider-arrow prev" id="prevBtn"><i class="fa-solid fa-chevron-left"><</i></button>
+    <div class="hero-content">
+        <h1 id="heroTitle">Latest Gaming & High-Performance Laptops</h1>
+        <p id="heroText">Get powerful processors and the latest graphics cards for 2026.</p>
+        <br>
+    </div>
+    <button class="slider-arrow next" id="nextBtn">><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="slider-dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+    </div>
+</div>
+
+
+    <!-- Main Content & Sidebar -->
+    <div class="container">
+        <!-- Main Content (Products) -->
+        <main>
+            <h2 class="section-title"><i class="fa-solid fa-fire"></i> Most Popular Devices</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <span class="badge-off">15% OFF</span>
+                    <img src="/img/lenveo 5.png" alt="Lenovo Legion">
+                    <h3>Lenovo Legion Pro 5</h3>
+                    <p>Intel Core i7 | 16GB RAM | 1TB SSD | RTX 4060</p>
+                    <div class="price-row">
+                        <span class="price">$1,250</span>
+                        <span class="old-price">$1,450</span>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <span class="badge-new">New</span>
+                    <img src="/img/mac3.png" alt="MacBook Pro">
+                    <h3>MacBook Pro M3</h3>
+                    <p>Apple M3 Chip | 18GB RAM | 512GB SSD</p>
+                    <div class="price-row">
+                        <span class="price">$1,899</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-box">
+                <h4><i class="fa-solid fa-filter"></i> Categories</h4>
+                <ul class="categories-list">
+                    <li><i class="fa-solid fa-laptop"></i> Gaming Laptops</li>
+                    <li><i class="fa-solid fa-briefcase"></i> Business & Travel</li>
+                    <li><i class="fa-solid fa-graduation-cap"></i> Students & Study</li>
+                    <li><i class="fa-solid fa-palette"></i> Design & Graphics</li>
+                </ul>
+            </div>
+
+            <div class="special-offer-box">
+                <h4><i class="fa-solid fa-bullhorn"></i> Special Offer</h4>
+                <p>Get a free laptop bag and wireless mouse with any purchase over $1000 this week!</p>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Quick Specifications Comparison Section -->
+    <div class="comparison-section">
+        <h2 class="section-title"> Quick Specifications Comparison</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Processor</th>
+                    <th>RAM</th>
+                    <th>GPU</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lenovo Legion 5</td>
+                    <td>Core i7 13th Gen</td>
+                    <td>16GB DDR5</td>
+                    <td>RTX 4060 8GB</td>
+                    <td>$1,250</td>
+                </tr>
+                <tr>
+                    <td>MacBook Pro M3</td>
+                    <td>Apple M3 Pro</td>
+                    <td>18GB Unified</td>
+                    <td>14-Core GPU</td>
+                    <td>$1,899</td>
+                </tr>
+                <tr>
+                    <td>ASUS ROG Strix</td>
+                    <td>AMD Ryzen 9</td>
+                    <td>32GB DDR5</td>
+                    <td>RTX 4080 12GB</td>
+                    <td>$2,300</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h5>About TechLaptop</h5>    
+            </div>
+            <div class="footer-col">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index1.html">All Products</a></li>
+                    <li><a href="index3.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Follow Us</h5>
+                <div class="social-icons">
+                    <a href="#"<i class=" fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to external JS file -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

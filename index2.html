@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechLaptop - User Login</title>
+    <!-- ربط ملف التنسيقات الخارجي -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- ربط مكتبة الأيقونات Font Awesome -->
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    
+    <!-- شريط التنقل العلوي -->
+    
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-laptop"></i> TechLaptop
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index1.html" >Products</a>
+            <a href="index4.html">Register</a>
+            <a href="index2.html" class="active">Login</a>
+            <a href="index3.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- الحاوية الرئيسية للصفحة -->
+    <main class="main-content">
+        <!-- صندوق نموذج تسجيل الدخول -->
+        <div class="login-container">
+            <div class="login-header">
+                <!-- أيقونة العنوان -->
+                <i class="fas fa-sign-in-alt"></i>
+                <h2>User Login</h2>
+            </div>
+            
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="name@example.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                
+                <div class="form-check">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            
+            <div class="login-footer">
+                <p>Don't have an account? <a href="#">Register Now</a></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ربط ملف الجافا سكريبت الخارجي -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
